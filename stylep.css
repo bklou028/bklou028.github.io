@@ -1,0 +1,166 @@
+body {
+    font-family: sans-serif;
+    margin-bottom: 125px;
+   
+}
+p {
+    color: black;
+    background-color: white}
+
+.nav {
+    background-color: white;
+    color: #ffde26;
+    display: flex;
+    font-family: 'Anton', sans-serif;
+    background-image: url(images/sunset.jpg);
+}
+
+.nav h2 {
+    color: #ffde26;
+    padding-right: 165px;
+    
+}
+.nav ul{
+    display: flex;
+    color:  #ffde26;
+    
+}
+
+.navtitle li {
+    font-size: 35px;
+}
+.nav li {
+    list-style-type: none;
+    padding: 15px 15px;
+   
+}
+.navbar {
+    padding-top: 15px;
+    justify-content: flex-end;
+}
+.nav a {
+    text-decoration: none;
+    color:  #ffde26;
+    
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+    
+}
+.intro {
+  position: relative;
+  width: 65%;
+  margin: auto;
+  padding: 15px;
+
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.intro:hover .image {
+  opacity: 0.3;
+}
+
+.intro:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #ffde26;
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.text a {
+    text-decoration: none;
+    color: black;
+}
+.flex1 {
+    display: flex;
+}
+
+.flex1 p{
+    padding: 10px 5px 0px 10px;
+}
+.ruins {
+    flex: 1;
+    margin: 5px;
+}
+.scuba {
+    flex: 1;
+    margin: 5px;
+}
+.golf {
+    width: 65%;
+    margin: 5px;
+    flex: 1;
+}
+.flex2 {
+    display: flex;
+}
+
+.museum {
+    flex: 1;
+    margin: 5px;
+}
+.hotel {
+    display: flex;
+}
+.hotel1 {
+    flex: 1;
+    text-align: center;
+}
+.hotel2{
+    flex: 1;
+    text-align: center;
+}
+.hotel2pic {
+    width: 85%;
+}
+.hotel3 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hotel1 p, .hotel2 p, .hotel3 p {
+    margin: 0px;
+}
+.hotel3pic {
+    width: 45%;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ff2667;
+  text-align: center;
+
+}
+.footer p{
+    font-size: 15px;
+    color: #26a8ff;
+    background-color: #ff2667;
+    margin: 0px;
+}
